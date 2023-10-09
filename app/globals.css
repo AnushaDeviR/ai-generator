@@ -5,3 +5,11 @@
 body {
   background-color: #fff;
 }
+
+.check_button {
+  @apply bg-blue-500 p-1.5 rounded-lg text-white w-20;
+}
+
+.clear_button {
+  @apply bg-red-500 p-1.5 rounded-lg text-white w-20;
+}
